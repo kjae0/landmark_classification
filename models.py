@@ -3,7 +3,6 @@ from torchvision.models import resnet50 as ResNet_50
 from torchvision.models import inception_v3 as Inception_v3
 from torchvision.models import efficientnet_b3 as efficientNet_b3
 from torchvision.models import efficientnet_b4 as efficientNet_b4
-import torch
 import torch.nn as nn
 
 class ResNet50(nn.Module):
