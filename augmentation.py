@@ -1,3 +1,7 @@
+# Generate augmentation dataset
+# Rotation, Cropping, Erasing
+
+
 import torch.utils.data as data
 import os
 from PIL import Image
